@@ -1,0 +1,25 @@
+{
+  "name": "tanyathuba",
+  "version": "1.0.0",
+  "description": "Aplikasi Tanya Jawab Kajian - Next.js App Router (Thuba Project)",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "next lint",
+    "setup": "node scripts/generate-hash.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sql.js": "^1.15.1",
+    "xss": "^1.0.16"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
