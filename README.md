@@ -1,6 +1,6 @@
 Disclaimer
 ----------
-Silahkan copy paste konsep dan sebarluaskan aplikasi ini untuk SIAPAPUN YANG MEMBUTUHKANNYA. 
+Silahkan di copy paste konsepnya, dimodifikasi,dan sebarluaskan aplikasi ini untuk SIAPAPUN YANG MEMBUTUHKANNYA.
 Barakallahufikum.
 
 - Thuba Kemitraan
