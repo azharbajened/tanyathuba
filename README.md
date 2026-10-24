@@ -17,18 +17,17 @@ Aplikasi Web Tanya Jawab Kajian berbasis **Next.js 16 (App Router + Turbopack) &
 ### 1. Mempermudah Sesi Tanya Jawab Saat Kajian & Dauroh
 Pada format konvensional, jamaah sering diminta mengirimkan pertanyaan melalui pesan WhatsApp atau secarik kertas:
 - **Sulit Diingat**: Nomor handphone panitia seringkali panjang, sulit diingat oleh jamaah di majelis, atau rawan salah catat angka.
+- **Kegiatan Sosial**: Dengan aplikasi ini kita bisa mengajak mereka join ke sosial media penyelanggara dengan sangat mudah. Selain itu kita juga bisa lampirkan program-program yang sedang berlangsung. 
 - **Pesan Tenggelam**: Pertanyaan yang masuk melalui WhatsApp panitia rentan bertumpuk dengan pesan pribadi, grup kajian lain, atau chat koordinasi logistik.
 - **Tanya Jawab Terindeks & Rapi**: Dengan aplikasi ini, seluruh pertanyaan jamaah secara otomatis mendapatkan **Nomor Urut Antrian (`#1`, `#2`, ...)**, terindeks rapi, dan ustadz/panitia dapat menyaring status *Belum Dijawab* atau *Sudah Dijawab* langsung dari satu layar tanpa terdistraksi notifikasi chat.
 
-### 2. Amanah Data Pribadi & Pertanggungjawaban Akhirat (*Zero Personal Data*)
-> *"Sesungguhnya Kami telah menawarkan amanah kepada langit, bumi, dan gunung-gunung; semuanya enggan memikulnya dan khawatir akan mengkhianatinya, lalu dipikullah amanah itu oleh manusia..."* (QS. Al-Ahzab: 72)
-
-Menampung dan menyimpan data pribadi jamaah—seperti nama lengkap, nomor handphone/WhatsApp, dan alamat email—merupakan **amanah yang sangat besar dan berat pertanggungjawabannya di dunia maupun di hadapan Allah ﷻ di akhirat kelak**. Jika terjadi kebocoran basis data, penyelenggara kajian memikul beban moral dan syar'i atas privasi umat.
+##
+Menampung dan menyimpan data pribadi jamaah—seperti nama lengkap, nomor handphone/WhatsApp, dan alamat email—merupakan **amanah yang sangat besar dan berat pertanggungjawabannya** karena apabila terjadi kebocoran basis data, penyelenggara kajian memikul beban moral atas privasi umat.
 
 Oleh karena itu, aplikasi ini menerapkan prinsip **Data Privacy by Design & Zero Personal Data**:
-- **Hanya Menampung Pertanyaan**: Sistem murni hanya menerima esensi pertanyaan keagamaan yang ditujukan kepada ustadz.
+- **Hanya Menampung Pertanyaan**: Sistem murni hanya menerima esensi pertanyaan yang ditujukan kepada ustadz.
 - **Tanpa Pengumpulan Identitas Sensitif**: Tidak ada form isian nomor handphone, email, akun media sosial, maupun dokumen pribadi.
-- **Anonimitas Jamaah Terlindungi**: Setiap pertanyaan secara default diatribusikan sebagai *Hamba Allah*, menjaga keikhlasan penanya dan melindungi privasi jamaah seutuhnya.
+- **Anonimitas Jamaah Terlindungi**: Setiap pertanyaan secara default diatribusikan sebagai *Hamba Allah* untuk privasi.
 
 ---
 
@@ -47,13 +46,13 @@ Oleh karena itu, aplikasi ini menerapkan prinsip **Data Privacy by Design & Zero
 - **Mobile-Friendly UI**: Tampilan nyaman dibuka melalui smartphone Android, iPhone (termasuk penyesuaian notch & home bar iOS), maupun tablet.
 
 ### 🛡️ 2. Portal Admin (`/portaladmin`)
-- **Autentikasi Ganda (Username & Password)**: Dilengkapi proteksi anti brute-force:
+- **Autentikasi  (Username & Password)**: Dilengkapi proteksi anti brute-force:
   - **Penalti 15 Menit**: Jika terjadi **5x percobaan login gagal berturut-turut**, akses IP dikunci sementara selama 15 menit.
 - **Kontrol Status Sesi 1-Klik**: Ustadz/panitia dapat mengatur status:
   - ⏳ *Menunggu Sesi*
   - ▶️ *Mulai Sesi* (formulir jamaah dibuka)
   - ⏹️ *Hentikan Sesi* (formulir jamaah ditutup)
-- **Tampilan Kartu (Card-Based UI)**: Nyaman dibaca ustadz saat memegang tablet/HP di mimbar.
+- **Tampilan Kartu (Card-Based UI)**: Nyaman dibaca ustadz saat memegang tablet/HP
 - **Pencarian Cepat & Filter Tab**: Filter *Semua*, *⏳ Belum Dijawab*, atau *✅ Sudah Dijawab*, serta pencarian instan berdasar ID atau kata kunci.
 - **Aksi Massal (Bulk Action)**: Menandai atau menghapus banyak pertanyaan sekaligus dengan bar melayang (*floating action bar*).
 - **Mode Cetak (Print View)**: Fitur cetak rapi ke kertas/PDF untuk ustadz yang lebih nyaman membaca lembaran fisik.
