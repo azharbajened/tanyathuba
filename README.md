@@ -52,7 +52,7 @@ Oleh karena itu, aplikasi ini menerapkan prinsip **Data Privacy by Design & Zero
 
 ---
 
-## 🛡️ Jaminan Keamanan OWASP Top 10
+## 🛡️ Insyallah Ikhtiar Keamanan sudah mencakup OWASP Top 10
 
 | # | Ancaman OWASP | Strategi Proteksi / Mitigasi |
 |---|---|---|
