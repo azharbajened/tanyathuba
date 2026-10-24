@@ -2,8 +2,6 @@
 
 Aplikasi Web Tanya Jawab Kajian berbasis **Next.js 16 (App Router + Turbopack) & React 19** yang dirancang khusus untuk mempermudah proses interaksi tanya jawab antara jamaah dan ustadz saat kajian atau dauroh ilmiah berlangsung. Dilengkapi dengan **Portal Admin (`/portaladmin`)** yang intuitif, aman, dan responsif diakses melalui smartphone, tablet, maupun laptop.
 
-Website ini didesain presisi mengikuti estetika **[daftar.thubaproject.com](https://daftar.thubaproject.com)** (Glassmorphism, Ambient Glow, Emas & Teal Islamik, Typography Inter & Playfair Display).
-
 ---
 
 ## 📜 Latar Belakang & Filosofi Aplikasi
