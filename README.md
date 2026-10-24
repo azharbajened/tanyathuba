@@ -1,3 +1,10 @@
+Disclaimer
+----------
+Silahkan copy paste konsep dan sebarluaskan aplikasi ini. Barakallahufikum.
+
+- Thuba Kemitraan
+
+
 # 🕌 Tanya Jawab Kajian (Next.js App Router)
 
 Aplikasi Web Tanya Jawab Kajian berbasis **Next.js 16 (App Router + Turbopack) & React 19** yang dirancang khusus untuk mempermudah proses interaksi tanya jawab antara jamaah dan ustadz saat kajian atau dauroh ilmiah berlangsung. Dilengkapi dengan **Portal Admin (`/portaladmin`)** yang intuitif, aman, dan responsif diakses melalui smartphone, tablet, maupun laptop.
@@ -123,11 +130,6 @@ npm run dev
 npm run build
 npm run start
 ```
-
-Akses aplikasi pada peramban:
-- **Halaman Jamaah**: [http://localhost:3000](http://localhost:3000)
-- **Portal Admin**: [http://localhost:3000/portaladmin](http://localhost:3000/portaladmin)
-
 ---
 
 ## 📄 Lisensi
