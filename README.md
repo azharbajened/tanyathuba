@@ -56,7 +56,7 @@ Oleh karena itu, aplikasi ini menerapkan prinsip **Data Privacy by Design & Zero
 
 | # | Ancaman OWASP | Strategi Proteksi / Mitigasi |
 |---|---|---|
-| **A01** | **Broken Access Control** | Token JWT `HS256` wajib untuk seluruh REST API Admin (`/api/admin/*`). Rute rahasia `/portaladmin`. |
+| **A01** | **Broken Access Control** | Token JWT `HS256` wajib untuk seluruh REST API Admin (`/api/admin/*`). |
 | **A02** | **Cryptographic Failures** | Password admin di-hash dengan `bcrypt` (cost 12), token captcha di-sign dengan HMAC SHA256, IP di-hash dengan pepper (`sha256`). |
 | **A03** | **Injection (SQLi, Command, XSS)** | Parameterized queries via SQLite (`node:sqlite` / `sql.js`), XSS Sanitization (`xss`), dan aman dari DOM XSS. |
 | **A04** | **Insecure Design** | Rate-limiting bertingkat (Jeda 5 mnt, limit 2 pertanyaan/jam, penalti login 5x salah = 15 mnt lock). |
